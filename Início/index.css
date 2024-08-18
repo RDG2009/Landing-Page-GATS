@@ -1,0 +1,285 @@
+/* --------------------------------------------------------- MAIN ------------------------------------------------------------------ */
+/*Estilos Gerais*/
+
+/*VENHA CONHECER*/
+#venha-conhecer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#venha-conhecer #textos{
+    text-align: center;
+}
+
+#venha-conhecer h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #15612C;
+    font-weight: bolder;
+}
+
+#venha-conhecer #baixe-aqui{
+    background-color: #1A990F;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+/*FRASE GATS - GIF*/
+#frase-gats{
+    width: 98.4vw;
+}
+
+/* BENEFÍCIOS */
+#beneficios{
+    display: flex;
+    justify-content: space-around;
+}
+
+#imagens-beneficios{
+    display: flex;
+    margin-top: 70px;
+}
+
+.img-ben{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+#beneficios li{
+    margin-top: 5px;
+    color: #37AA35;
+    font-weight: bolder;
+}
+
+
+/* Vídeo Institucional */
+
+#video-institucional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#video-institucional h1{
+    text-align: center;   
+}
+
+#video-institucional video{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 849px){
+    /*VENHA CONHECER*/
+    #venha-conhecer{
+        flex-direction: column;
+    }
+    #venha-conhecer h1{
+        font-size: 24px;
+    }
+
+    #venha-conhecer h2{
+        font-size: 22px;
+    }
+
+    #venha-conhecer #baixe-aqui{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    #venha-conhecer img{
+        width: 150px;
+        height: 150px;
+    }
+
+    /*frase gats*/
+    #frase-gats{
+        margin-top: 70px;
+    }
+
+    /* BENEFÍCIOS */
+    #beneficios{
+        margin: 150px 30px 0px 30px;
+        flex-direction: column;
+    }
+    
+    #beneficios h1{
+        font-size: 24px;
+    }
+    
+    #beneficios #textos-ben{
+        margin-top: 20px;
+        width: 400px;
+        font-size: 14px;
+    }
+    
+    #beneficios li{
+        margin-top: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 850px){ /*Estilos até 800px*/
+    /*VENHA CONHECER*/
+    #venha-conhecer h1{
+        font-size: 24px;
+    }
+
+    #venha-conhecer h2{
+        font-size: 22px;
+    }
+
+    #venha-conhecer #baixe-aqui{
+        width: 180px;
+        height: 60px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    #venha-conhecer img{
+        width: 380px;
+        height: 380px;
+    }
+
+    /*FRASE GATS - GIF*/
+    #frase-gats{
+        margin-top: 100px;
+    }
+    
+
+    /* BENEFÍCIOS */
+    #beneficios{
+        margin: 150px 50px 0px 50px;
+    }
+
+    #beneficios h1{
+        font-size: 35px;
+    }
+
+    #beneficios #textos-ben{
+        width: 500px;
+        font-size: 16px;
+    }
+
+    #beneficios li{
+        margin-top: 5px;
+    }
+
+    /* Imagem Benefícios */
+
+    #imagens-beneficios{
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        height: 160px;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imagens-beneficios .grande{
+        width: 100px;
+    }
+
+    #imagens-beneficios .redonda{
+        width: 160px;
+    }
+
+    #imagens-beneficios .comprida{
+        width: 260px;
+    }
+
+    .img-ben{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*Vídeo Institucional*/
+
+    #video-institucional video{
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 1100px){ /*Estilos no mínimo 1500px */
+    /*VENHA CONHECER*/
+    #venha-conhecer h2{
+        font-size: 32px;
+    }
+
+    #venha-conhecer #baixe-aqui{
+        width: 285px;
+        height: 83px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+
+    #venha-conhecer img{
+        width: 500px;
+        height: 500px;
+    }
+    
+    
+    /* BENEFÍCIOS */
+    #beneficios{
+        margin: 150px 100px 0px 100px;
+    }
+
+    #beneficios h1{
+        font-size: 45px;
+    }
+
+    #beneficios #textos-ben{
+        width: 600px;
+        font-size: 20px;
+    }
+
+    #beneficios li{
+        margin-top: 10px;
+    }
+
+    
+
+    /* Imagem Benefícios */
+
+    #imagens-beneficios{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+        height: 208px;
+        width: 95vw;
+    }
+
+    #imagens-beneficios .grande{
+        width: 146px;
+    }
+
+    #imagens-beneficios .redonda{
+        width: 208px;
+    }
+
+    #imagens-beneficios .comprida{
+        width: 386px; 
+    }
+
+    /*Vídeo Insitucional*/
+
+    #video-institucional video{
+        width: 1050px;
+    }
+
+
+}
+

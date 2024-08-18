@@ -1,0 +1,89 @@
+/* ------------------------------------------------------- MAIN --------------------------------------------------------------------- */
+.titulo{
+    margin: 60px;
+    text-align: center;
+    color: #10742E;
+}
+
+/*valores*/
+#valores{
+    display: flex;
+}
+
+#img-valores{
+    width: 850px;
+    height: 520px;
+    position: relative;
+}
+
+.valor{
+    background-color: #F4FEE3;
+    font-size: 29px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 70px;
+    margin-top: 15px;
+}
+
+
+.correto{
+    width: 70px;
+    position: absolute;
+    left: 850px;
+    margin-right: 20px;
+}
+
+/*fundadores e desenvolvedores*/
+.integrantes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 26px;
+}
+
+.foto-integrantes{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.integrantes ul{
+    list-style-type: none;
+}
+
+.integrantes li{
+    margin-top: 10px;
+}
+
+/* Objetivos */
+.objetivos-linha{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.objetivo{
+    background-color: #1A990F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 300px;
+    width: 230px;
+    
+}
+
+.objetivo img{
+    margin-top: 30px;
+    width: 145px;
+}
+
