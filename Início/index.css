@@ -43,7 +43,6 @@
 
 #imagens-beneficios {
     display: flex;
-    margin-top: 70px;
 }
 
 .img-ben {
@@ -76,12 +75,12 @@
     border-radius: 10px;
 }
 
-/* Media Query para até 849px */
+/* Configurando telas de até no máximo 849px*/
 @media screen and (max-width: 849px) {
     /*VENHA CONHECER*/
     #venha-conhecer {
         flex-direction: column;
-        height: 50px;
+        height: 600px;
     }
 
     #venha-conhecer h1 {
@@ -104,14 +103,10 @@
         height: 150px;
     }
 
-    /* Ajuste para o GIF */
-    #frase-gats {
-        margin-top: -100px; /* Suba o valor conforme necessário */
-    }
 
     /* BENEFÍCIOS */
     #beneficios {
-        margin: 150px 30px 0px 30px;
+        margin: 50px 30px 0px 30px;
         flex-direction: column;
     }
 
@@ -128,9 +123,46 @@
     #beneficios li {
         margin-top: 5px;
     }
+
+    /* Imagem Benefícios */
+    #imagens-beneficios {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imagens-beneficios .grande {
+        width: 60px;
+    }
+
+    #imagens-beneficios .redonda {
+        width: 80px;
+    }
+
+    #imagens-beneficios .comprida {
+        width: 120px;
+    }
+    
+    .img-ben {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*Vídeo Institucional*/
+    #video-institucional h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    #video-institucional video {
+        width: 400px;
+    }
 }
 
-/* Estilos para telas maiores */
+/* Configurando telas de até no minímo 850px*/
 @media screen and (min-width: 850px) {
     /*VENHA CONHECER*/
     #venha-conhecer {
@@ -208,12 +240,12 @@
         margin-right: 10px;
     }
 
-    /*Vídeo Institucional*/
     #video-institucional video {
         width: 800px;
     }
 }
 
+/* Configurando telas de até no minímo 1100px*/
 @media screen and (min-width: 1100px) {
     /*VENHA CONHECER*/
     #venha-conhecer h2 {
