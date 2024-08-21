@@ -17,6 +17,16 @@ footer .icone{
     margin-right: 10px;
 }
 
+@media  screen and (max-width: 799px) { /*Estilos para tela menor que 799px*/
+    footer{
+        font-size: 6px;
+    }
+
+    footer .icone{
+        width: 12px;
+    }
+}
+
 @media screen and (min-width: 800px){ /*Estilos até 800px*/
     footer{
         font-size: 12px;

@@ -92,8 +92,8 @@
     }
 
     #venha-conhecer #baixe-aqui {
-        width: 150px;
-        height: 50px;
+        width: 130px;
+        height: 30px;
         font-size: 18px;
         font-weight: normal;
     }
@@ -135,20 +135,20 @@
     }
 
     #imagens-beneficios .grande {
-        width: 60px;
+        width: 50px;
     }
 
     #imagens-beneficios .redonda {
-        width: 80px;
+        width: 70px;
     }
 
     #imagens-beneficios .comprida {
-        width: 120px;
+        width: 110px;
     }
     
     .img-ben {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     /*Vídeo Institucional*/
