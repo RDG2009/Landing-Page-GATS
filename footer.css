@@ -13,6 +13,11 @@ footer .contato{
     align-items: center;
 }
 
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
 footer .icone{
     margin-right: 10px;
 }
