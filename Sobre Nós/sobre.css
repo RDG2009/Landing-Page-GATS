@@ -5,9 +5,6 @@
 }
 
 /*valores*/
-#valores{
-    display: flex;
-}
 
 .valor{
     background-color: #F4FEE3;
@@ -20,7 +17,6 @@
 
 .correto{
     position: absolute;
-    left: 56vw;
     margin-right: 20px;
 }
 
@@ -47,9 +43,6 @@
 .objetivos-linha{
     display: flex;
     justify-content: space-around;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-top: 50px;
 }
 
 .objetivo{
@@ -60,26 +53,101 @@
     flex-direction: column;
     border-radius: 10px;
     text-align: center;
-    font-size: 20px;
     color: white;
-    height: 300px;
-    width: 230px;
 }
 
-.objetivo img{
-    margin-top: 30px;
-    width: 145px;
+
+@media screen and (max-width: 849px) {
+    .titulo{
+        margin: 40px;
+        font-size: 26px;
+    }
+
+    #img-valores{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .valor{
+        font-size: 16px;
+        box-shadow: 3px 3px rgba(0, 0, 0, 0.148);
+        width: 400px;
+        height: 60px;
+        margin: 10px auto;
+    }
+
+    .correto{
+        width: 40px;
+        left: 15vw;
+    }
+    
+     /*fundadores e desenvolvedores*/
+     .integrantes{
+        font-size: 14px;
+        flex-direction: column;
+    }
+
+    .foto-integrantes{
+        width: 300px;
+    }
+
+    .integrantes ul{
+        margin: 20px 0px;
+    }
+
+    /*Objetivos*/
+
+
+    .objetivos-linha{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .objetivo{
+        font-size: 12px;
+        height: 200px;
+        width: 130px;
+    }
+
+    .objetivo img{
+        margin-top: 20px;
+        width: 70px;
+    }
+}
+
+/*Mexendo no correto, para ficar do lado das palavras caso aumente um pouco a tela
+  Mexendo na imagem também, que fica muito esticada
+*/
+@media screen and (min-width: 640px) {
+
+    #img-valores{
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .correto{
+        width: 40px;
+        left: 25vw;
+    }
 }
 
 @media screen and (min-width: 850px) {
+    
+
     .titulo{
         margin: 40px;
         font-size: 28px;
     }
 
+    /*Valores*/
+    #valores{
+        display: flex;
+    }
+
     #img-valores{
         width: 56vw;
-        height: 56vh;
+        height: 52vh;
     }
 
     .valor{
@@ -92,6 +160,7 @@
 
     .correto{
         width: 60px;
+        left: 56vw;
     }
 
     /*fundadores e desenvolvedores*/
@@ -101,6 +170,25 @@
 
     .foto-integrantes{
         width: 400px;
+    }
+
+    /*Objetivos*/
+
+    .objetivos-linha{
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .objetivo{
+        font-size: 16px;
+        height: 250px;
+        width: 180px;
+    }
+
+    .objetivo img{
+        margin-top: 20px;
+        width: 110px;
     }
     
 }
@@ -136,6 +224,25 @@
 
     .foto-integrantes{
         width: 500px;
+    }
+
+    /*Objetivos*/
+
+    .objetivos-linha{
+        margin-right: 200px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    
+    .objetivo{
+        font-size: 20px;
+        height: 300px;
+        width: 230px;
+    }
+
+    .objetivo img{
+        margin-top: 30px;
+        width: 145px;
     }
     
 }
